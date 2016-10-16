@@ -1,0 +1,834 @@
+article{
+	width: 47%;
+	height: 300px;
+	margin-top: 15px;
+}
+aside{
+	background-color: #4aaaa5;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	top: 220px;
+	position: absolute;
+}
+
+aside a{
+	color: white;
+	text-decoration: none;
+}
+button{
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px solid #4aaaa5;
+	line-height:100%;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+header {
+	background-color: #4aaaa5;
+	line-height: 60%;
+	padding: 10px ;
+	float: left;
+	display: block;
+	/*margin: 0px 420.66px 0px 0px;
+	box-sizing: margin-box;*/
+	/*display: inline-block; Allows two blocks to display next to one another*/
+}
+
+h1 {
+	color: white;
+	font-family:'Georgia',Times,Times New Roman, serif;
+	font-size:40px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+hr{
+	display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+	color: #dddddd;
+
+}
+
+input, textarea {
+	width: 98%;
+	padding: 5px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+nav{
+	line-height: 100%;
+	text-align:left;
+	padding: 50px 10px 10px 0px;
+	/*display: inline-block; Allows two blocks to flow next to one another*/
+	width: 40%;
+	float: right;
+}
+
+nav a{
+	padding:0px 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	font-weight:bold;
+	color: #777777;
+}
+
+footer{
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	padding: 20px;
+	clear:both;
+}
+
+p{
+	color: #666666;
+	text-align: ;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 5px;
+
+
+
+}
+
+section a{
+	text-decoration: none;
+}
+
+.footer_text{ 
+	color: #cccccc;
+	text-align: center;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.header{
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+/*	padding: 20px 100px 0px 100px;*/
+	/*overflow: hidden;*/
+}
+
+.entire_content{
+	background-image: url("../images/cork-wallet.png");
+	border-top: 2px solid 	#cccccc;
+	padding: 40px 50px 40px 50px;
+	clear: both;
+	overflow: auto;
+}
+
+.form_title{
+	font-size: 18px;
+	
+}
+.main_section{
+	background-color: white;
+	width: 60%;
+	margin: 0px 20px 0px 0px;
+	border: 3px solid #dddddd;
+	padding: 0px 20px 20px 20px;
+	clear:left;
+	display: inline-block;
+	vertical-align: top;
+	flex-wrap: wrap;
+	overflow:auto;
+}
+.nav_text {
+	color: #cccccc ;
+	font-size: 15px;
+	font-family:'Georgia',Times,Times New Roman, serif;
+}
+
+
+.sidebar{
+	background-color: white;
+	margin-left: 20px;
+	border: 3px solid #dddddd;
+	padding: 0px 20px 20px 20px;
+	display: inline-block;
+	vertical-align: top; 
+	/*To align two blocks at the top of its containers. vertical-align is by default set at baseline*/
+
+}
+
+#contact_nav{
+	border-right: none;
+}
+
+#Portfolio-1{
+	background-image: url("../images/IMG_5932.jpg");
+	clear:left;
+	display: inline-block;
+	position: relative;
+}
+
+#Portfolio-2{
+	background-image: url("../images/IMG_8263.jpg");
+	clear:right;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+#Portfolio-3{
+	background-image: url("../images/IMG_9589.jpg");
+	clear:left;
+	position: relative;
+}
+
+#profilephoto{
+	width:250px;
+	height:250px;
+	float: left;
+	margin: 15px 20px 10px 0px;
+}
+
+@media screen and (max-width: 980px) {
+	article{
+	width: 47%;
+	height: 300px;
+	margin-top: 15px;
+}
+	aside{
+	background-color: #4aaaa5;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	top: 220px;
+	position: absolute;
+}
+
+	aside a{
+	color: white;
+	text-decoration: none;
+}
+	button{
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px solid #4aaaa5;
+	line-height:100%;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+	header {
+	background-color: #4aaaa5;
+	line-height: 60%;
+	padding: 10px ;
+	float: left;
+	display: block;
+}
+
+	h1 {
+	color: white;
+	font-family:'Georgia',Times,Times New Roman, serif;
+	font-size:40px;
+}
+
+	h2 {
+	color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+	hr{
+	display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+	color: #dddddd;
+
+}
+
+	input, textarea {
+	width: 98%;
+	padding: 5px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+	
+	nav{
+	line-height: 100%;
+	text-align:center;
+	padding: 50px 10px 10px 0px;
+	width: 40%;
+	float: right;
+}
+
+	nav a{
+	padding:0px 20px;
+	text-decoration: none;
+}
+
+	nav a:hover{
+	font-weight:bold;
+	color: #777777;
+}
+
+	footer{
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	padding: 20px;
+	clear:both;
+}
+
+	p{
+	color: #666666;
+	text-align: justify;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 5px;
+
+}
+
+	section a{
+	text-decoration: none;
+}
+	.content-box{
+		width: 768px;
+	}
+
+	.footer_text{ 
+	color: #cccccc;
+	text-align: center;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+	.header{
+	background-color: white;
+	padding: 0px 20px 0px 20px;
+	overflow: hidden;
+}
+
+	.entire_content{
+	background-image: url("../images/cork-wallet.png");
+	border-top: 2px solid 	#cccccc;
+	padding: 20px 20px 20px 20px;
+	clear: both;
+	overflow: auto;
+}
+
+	.form_title{
+	font-size: 18px;
+	
+}
+	.main_section{
+	background-color: white;
+	width: 60%;
+	margin: 0px 10px 0px 0px;
+	border: 3px solid #dddddd;
+	padding: 0px 20px 20px 20px;
+	clear:left;
+	display: inline-block;
+	vertical-align: top;
+	flex-wrap: wrap;
+	overflow:auto;
+}
+ 	.nav_text {
+	color: #cccccc ;
+	font-size: 15px;
+	font-family:'Georgia',Times,Times New Roman, serif;
+}
+
+	.portfolio-image{
+	width: 45%;
+	box-sizing: margin-box;
+}
+
+	.sidebar{
+	background-color: white;
+	margin-left: 10px;
+	border: 3px solid #dddddd;
+	clear: right;
+	padding: 0px 20px 20px 20px;
+	display: inline-block;
+	vertical-align: top; 
+	/*To align two blocks at the top of its containers. vertical-align is by default set at baseline*/
+
+}
+
+	#contact_nav{
+	border-right: none;
+}
+
+	#Portfolio-1{
+	background-image: url("../images/IMG_5932.jpg");
+	clear:left;
+	display: inline-block;
+	position: relative;
+}
+
+	#Portfolio-2{
+	background-image: url("../images/IMG_8263.jpg");
+	clear:right;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+	#Portfolio-3{
+	background-image: url("../images/IMG_9589.jpg");
+	clear:left;
+	position: relative;
+}
+
+	#profilephoto{
+	width:250px;
+	height:250px;
+	margin: 15px 20px 10px 0px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	article{
+	width: 47%;
+	height: 300px;
+	margin-top: 15px;
+}
+	aside{
+	background-color: #4aaaa5;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	top: 220px;
+	position: absolute;
+}
+
+	aside a{
+	color: white;
+	text-decoration: none;
+}
+	button{
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px solid #4aaaa5;
+	line-height:100%;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+	header {
+	background-color: #4aaaa5;
+	line-height: 60%;
+	padding: 10px ;
+	float: left;
+	display: block;
+}
+
+	h1 {
+	color: white;
+	font-family:'Georgia',Times,Times New Roman, serif;
+	font-size:40px;
+}
+
+	h2 {
+	color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+	hr{
+	display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+	color: #dddddd;
+
+}
+
+	input, textarea {
+	width: 98%;
+	padding: 5px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+	
+	nav{
+	line-height: 100%;
+	text-align:center;
+	padding: 50px 10px 10px 0px;
+	width: 40%;
+	float: right;
+}
+
+	nav a{
+	padding:0px 20px;
+	text-decoration: none;
+	color: #cccccc ;
+	font-size: 15px;
+	font-family:'Georgia',Times,Times New Roman, serif;
+}
+
+	nav a:hover{
+	font-weight:bold;
+	color: #777777;
+}
+
+	footer{
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	padding: 20px;
+	clear:both;
+}
+
+	p{
+	color: #666666;
+	text-align: justify;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 5px;
+
+}
+
+	section a{
+	text-decoration: none;
+}
+
+	.content-box{
+		width: 748px;
+	}
+
+	.footer_text{ 
+	color: #cccccc;
+	text-align: center;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+	.header{
+	background-color: white;
+	padding: 0px 10px 0px 10px;
+	overflow: hidden;
+}
+
+	.entire_content{
+	background-image: url("../images/cork-wallet.png");
+	border-top: 2px solid 	#cccccc;
+	padding: 10px 10px 10px 10px;
+	clear: both;
+	overflow: auto;
+}
+
+	.form_title{
+	font-size: 18px;
+	
+}
+	.main_section{
+	background-color: white;
+	width: 92%;
+	margin: 0px 0px 10px 0px;
+	border: 3px solid #dddddd;
+	padding: 0px 20px 20px 20px;
+	clear:both;
+	vertical-align: top;
+	flex-wrap: wrap;
+	overflow:auto;
+}
+
+	.sidebar{
+	background-color: white;
+	width: 92%;
+	border: 3px solid #dddddd;
+	clear: both;
+	padding: 0px 20px 20px 20px;
+	margin: 0px;
+	/*To align two blocks at the top of its containers. vertical-align is by default set at baseline*/
+
+}
+
+	#contact_nav{
+	border-right: none;
+}
+
+	#Portfolio-1{
+	background-image: url("../images/IMG_5932.jpg");
+	clear:left;
+	display: inline-block;
+	position: relative;
+}
+
+	#Portfolio-2{
+	background-image: url("../images/IMG_8263.jpg");
+	clear:right;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+	#Portfolio-3{
+	background-image: url("../images/IMG_9589.jpg");
+	clear:left;
+	position: relative;
+}
+
+	#profilephoto{
+	width:250px;
+	height:250px;
+	margin: 15px 20px 10px 0px;
+}
+}
+
+@media screen and (max-width: 640px) {
+	article{
+	margin-top: 10px;
+	clear: both;
+}
+	aside{
+	background-color: #4aaaa5;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	top: 220px;
+	position: absolute;
+}
+
+	aside a{
+	color: white;
+	text-decoration: none;
+}
+	button{
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px solid #4aaaa5;
+	line-height:100%;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+	header {
+	background-color: #4aaaa5;
+	line-height: 60%;
+	padding: 0px ;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+	h1 {
+	color: white;
+	font-family:'Georgia',Times,Times New Roman, serif;
+	font-size:40px;
+}
+
+	h2 {
+	color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+	hr{
+	display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+	color: #dddddd;
+
+}
+
+	input, textarea {
+	width: 98%;
+	padding: 5px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+	
+	nav{
+	line-height: 100%;
+	text-align: center;
+	padding: 10px 10px 10px 0px;
+	width: 100%;
+	clear: both;
+}
+
+	nav a{
+	padding:0px 40px;
+	text-decoration: none;
+}
+
+	nav a:hover{
+	font-weight:bold;
+	color: #777777;
+}
+
+	footer{
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	padding: 20px;
+	clear:both;
+}
+
+	p{
+	color: #666666;
+	text-align: justify;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 5px;
+
+}
+
+	section a{
+	text-decoration: none;
+}
+	.content-box{
+		width: 768px;
+	}
+
+	.footer_text{ 
+	color: #cccccc;
+	text-align: center;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+	.header{
+	background-color: white;
+	padding: 0px;
+
+}
+
+	.entire_content{
+	background-image: url("../images/cork-wallet.png");
+	border-top: 2px solid 	#cccccc;
+	padding: 20px 20px 20px 20px;
+	clear: both;
+	overflow: auto;
+}
+
+	.form_title{
+	font-size: 18px;
+	
+}
+	.main_section{
+	background-color: white;
+	width: 92%;
+	margin: 0px 10px 0px 0px;
+	border: 3px solid #dddddd;
+	padding: 0px 20px 20px 20px;
+	clear:left;
+	display: inline-block;
+	vertical-align: top;
+	flex-wrap: wrap;
+	overflow:auto;
+}
+	.nav_text {
+	color: #cccccc ;
+	font-size: 20px;
+	font-family:'Georgia',Times,Times New Roman, serif;
+}
+
+	.portfolio-image{
+	width: 60%;
+}
+
+	.sidebar{
+	background-color: white;
+	margin-left: 10px;
+	border: 3px solid #dddddd;
+	clear: both;
+	padding: 0px 20px 20px 20px;
+	margin: 0px;
+	/*To align two blocks at the top of its containers. vertical-align is by default set at baseline*/
+
+}
+
+	#index_nav, #portfolio_nav, #contact_nav{
+		width: 33%;
+		display: ;
+	}
+
+
+
+	#Portfolio-1{
+	background-image: url("../images/IMG_5932.jpg");
+	position: relative;
+	clear: both;
+	background-position: center;
+}
+
+	#Portfolio-2{
+	background-image: url("../images/IMG_8263.jpg");
+	position: relative;
+	clear: both;
+	float:left;
+	background-position: center;
+}
+
+	#Portfolio-3{
+	background-image: url("../images/IMG_9589.jpg");
+	position: relative;
+	clear: both;
+	background-position:center;
+}
+
+	#profilephoto{
+	width:200px;
+	height:200px;
+	margin: 15px 20px 10px 0px;
+}
+
+}

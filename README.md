@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Homework 2 - Northwestern Coding Bootcamp Oct 15 2016
+# Basic-Portfolio
+Homework 1 - Northwestern Coding Bootcamp - Due October 8 2016
